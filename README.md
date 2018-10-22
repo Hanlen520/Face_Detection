@@ -20,7 +20,7 @@ $sudo apt install python-opencv
 $python -c "import cv2; print dir(cv2)"
 如果输出了很多cv2 的属性和函数名的字典，就表示成功
 # 3、运行脚本
-# cd ../..
-# python main.py
+$cd ../..
+$python main.py
 4、查看检测后生成的图片faceExp_detected.png
 我们会发现里面所有的人脸都被框起来了，说明检测成功
